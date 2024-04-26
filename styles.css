@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./dog.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header, main, footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 15px;
+}
+
+h1, h2 {
+    text-align: center;
+    background-color: transparent;
+}
+
+.highlighted-process {
+    background-color: #f2e6d9;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.highlighted-process ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+.highlighted-process li {
+    margin-bottom: 10px;
+}
+
+.footer{
+    width: 20px;
+}
